@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<listeners>
+	<listener class-name="com.pratian.automation.utility.Listeners"></listener>
+</listeners>
+  <test name="Chrome Test">
+  <parameter name="browser" value="chrome"/>
+    <classes>
+      <!--class name="com.pratian.automation.testclasses.BaseTest"/>
+      <class name="com.pratian.automation.testclasses.TestLogin"/-->
+       <!--Balaji-->
+       
+       <class name="com.pratian.automation.testclasses.Tc055"/> 
+       <class name="com.pratian.automation.testclasses.Tc056"/>
+       <class name="com.pratian.automation.testclasses.Tc021"/> 
+       <class name="com.pratian.automation.testclasses.Tc052"/>
+       <class name="com.pratian.automation.testclasses.Tc051"/> 
+       
+       <!--Kuntal-->
+       
+       <class name="com.pratian.automation.testclasses.Tc032"/>
+       <class name="com.pratian.automation.testclasses.Tc048"/>
+       <class name="com.pratian.automation.testclasses.Tc024"/>
+       <class name="com.pratian.automation.testclasses.Tc040"/>
+       <class name="com.pratian.automation.testclasses.Tc037"/>
+       
+       <!--Satya Gayatri -->
+       <class name="com.pratian.automation.testclasses.Tc028"/>
+       <class name="com.pratian.automation.testclasses.Tc042"/>
+       <class name="com.pratian.automation.testclasses.Tc044"/>
+       <class name="com.pratian.automation.testclasses.Tc062"/>
+       <class name="com.pratian.automation.testclasses.Tc063"/>
+       
+       <!--RajaShree-->
+      <class name="com.pratian.automation.testclasses.LinkAvaibality"/>
+      <class name="com.pratian.automation.testclasses.SortButton"/>
+      <class name="com.pratian.automation.testclasses.ActiveStatus"/>
+      <class name="com.pratian.automation.testclasses.CustomerStatus"/>
+      <class name="com.pratian.automation.testclasses.ExitButton"/>    
+       
+       <!--Mrudhala-->
+      <class name="com.pratian.automation.testclasses.Tc023"/>
+       <class name="com.pratian.automation.testclasses.Tc026"/>
+       <class name="com.pratian.automation.testclasses.Tc041"/>
+       <class name="com.pratian.automation.testclasses.Tc057"/>
+       <class name="com.pratian.automation.testclasses.Tc058"/>  
+       
+       <!--Satarupa-->
+      <class name="com.pratian.automation.testclasses.AddValidInternal" />
+      <class name="com.pratian.automation.testclasses.ConfirmationDialogBox" />
+       <class name="com.pratian.automation.testclasses.AddInvalidInternal" /> 
+       <class name="com.pratian.automation.testclasses.AddValidExternal" />
+       <class name="com.pratian.automation.testclasses.AddInvalidExternal" />
+       
+       <!--Supratika-->
+     <class name="com.pratian.automation.testclasses.Tc031"/>
+       <class name="com.pratian.automation.testclasses.Tc039"/>
+       <class name="com.pratian.automation.testclasses.Tc047"/>
+       <class name="com.pratian.automation.testclasses.Tc060"/>
+       <class name="com.pratian.automation.testclasses.Tc061"/> 
+     
+           
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
